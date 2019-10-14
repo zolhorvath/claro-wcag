@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- build:process -->
-    <title><%= pkg.name_human %></title>
-    <!-- /build -->
-  </head>
-  <body>
-    <!-- build:process -->
-    <h1><%= pkg.name_human %></h1>
-    <!-- /build -->
-    <p>Bookmarklets for testing Drupal Claro theme</p>
-    <!-- build:process -->
-    <%= links %>
-  </body>
-</html>
+---
+layout: default
+---
+
+<!-- build:process -->
+<h1><%= pkg.name_human %></h1>
+<!-- /build -->
+<p>Bookmarklets for testing Drupal Claro theme</p>
+<!-- build:process -->
+<%= links %>

@@ -39,8 +39,8 @@ module.exports = function(grunt) {
       const filecontent = grunt.file.read(grunt.config.get(['bookmarklets'])[label]['target']);
       links.push(
         isMarkdown
-          ? '<a href="' + filecontent + '">' + label + '</a>'
-          : '[' + label + '](' + filecontent + ')'
+          ? '[' + label + '](' + filecontent + ')'
+          : '<a href="' + filecontent + '">' + label + '</a>'
       );
     });
 
