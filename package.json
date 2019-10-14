@@ -1,0 +1,13 @@
+{
+  "name": "wcag_sc_1.4.12",
+  "name_human": "WCAG SC 1.4.12 – Text spacing",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-bookmarklet-wrapper": "^1.2.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.5.0",
+    "grunt-html-build": "^0.7.1"
+  }
+}
